@@ -9,11 +9,25 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_square"
+        android:id="@+id/quadrado"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
         android:background="#5085EF"
         android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_acelerometro"
+        android:layout_width="149dp"
+        android:layout_height="98dp"
+        android:layout_below="@+id/quadrado"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="106dp"
+        android:text="TextView" />
 
 </RelativeLayout>
